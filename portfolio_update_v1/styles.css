@@ -120,6 +120,23 @@ ul.skills {
   background: #0399ff;
 }
 
+/* CV styles */
+
+.CV li {
+  border-radius: 6px;
+  display: inline-block;
+  background: #ff9904;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+/* Hobbies Styles */
+
+
+
+/* Footer styles*/
+
 footer {
   width: 100%;
   min-height: 30px;
