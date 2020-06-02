@@ -27,9 +27,13 @@ a:hover {
   width: 100%;
   background: black;
   min-height: 30px;
-  padding: 10px;
+  padding: 15px;
   position: fixed;
   text-align: center;
+}
+
+.main-nav /* Z-index added */ {
+    z-index: 100;
 }
 .nav {
   display: flex;
@@ -40,7 +44,8 @@ a:hover {
   padding: 0;
 }
 
-.nav .name {
+.nav
+.name {
     display: block;
     margin-right: auto;
     color: white;
@@ -110,7 +115,7 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: RGB(69, 69, 69, 60%);
   color: white;
   padding: 5px 10px;
   margin: 2px;
@@ -120,20 +125,78 @@ ul.skills {
   background: #0399ff;
 }
 
-/* CV styles */
+/* CV & Hobbies styles */
 
 .CV li {
   border-radius: 6px;
-  display: inline-block;
-  background: #ff9904;
+  background: RGB(69, 69, 69, 60%);
   color: white;
   padding: 5px 10px;
-  margin: 2px;
+  margin: 5px;
+  width: 100%;
+  text-align: center;
 }
 
-/* Hobbies Styles */
+.CV {
+  position: relative 50%;
+}
 
+.CV li:nth-child(odd) {
+  background: #0399ff;
+}
 
+.li-image {
+  width: 100%;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  border: solid 5px RGB(69, 69, 69, 60%);
+}
+
+ul.li-image {
+  padding: 0;
+  text-align: center;
+}
+
+figure {
+	margin: 0;
+	line-height: 0;
+	position: relative;
+}
+
+figcaption {
+	font-size: .9em;
+	line-height: 1.5;
+	color: white;
+	padding: 1em;
+	background: RGB(69, 69, 69, 60%);
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.icon-location {
+	width: 35px;
+	position: absolute;
+	top: -15px;
+	right: -15px;
+}
+
+.link-header {
+  text-align: center;
+  background: url('images/rsz_manchester_city_scape_4.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+
+.link-title {
+  color: white;
+  text-align: center;
+  background-color: RGB(69, 69, 69, 60%);
+
+}
 
 /* Footer styles*/
 
