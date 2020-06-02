@@ -55,17 +55,17 @@ a:hover {
   color: white
 }
 
-header {
+.home-page {
   text-align: center;
   background: url('images/rsz_manchester_city_scape_4.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
 }
-header {
+.home-page {
   line-height: 1.5;
 }
-header .profile-image {
+.home-page .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
@@ -73,7 +73,7 @@ header .profile-image {
   border: 3px solid white;
   transition: all .5s;
 }
-header .profile-image:hover {
+.home-page .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 .tag {
@@ -179,7 +179,7 @@ a.social:hover {
       margin: 0 auto;
   }
 
-  header {
+  .main-page {
     min-height: 470px;
   }
 
