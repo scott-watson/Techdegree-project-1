@@ -156,6 +156,17 @@ transition: all .5s;
   transform: scale(1.5);
 }
 
+.index-image {
+  width: 100%;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  border: 0;
+  transition: all .5s;
+
+}
+
 /* CV & Hobbies styles */
 
 .link-header {
