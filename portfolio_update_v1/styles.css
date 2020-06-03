@@ -137,6 +137,13 @@ top: -30px;
 left: -48px;
 float: left;
 border-radius: 50%;
+opacity: 65%;
+transition: all .5s;
+}
+
+.icon:hover {
+  opacity: 100%;
+  transform: scale(1.5);
 }
 
 /* CV & Hobbies styles */
