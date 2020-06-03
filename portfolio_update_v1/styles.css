@@ -76,7 +76,7 @@ a:hover {
   height: 150px;
   border-radius: 50%;
   border: 3px solid rgb(255, 215, 0, 60%);
-  transition: all .5s;
+  transition: all .8s;
 }
 .home-page .profile-image:hover {
   transform: scale(1.35) rotate(8deg);
@@ -126,6 +126,16 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #0399ff;
+}
+
+.icon {
+height: 35px;
+width: 35px;
+position: relative;
+top: -30px;
+left: -48px;
+float: left;
+border-radius: 50%;
 }
 
 /* CV & Hobbies styles */
