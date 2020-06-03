@@ -110,6 +110,14 @@ a:hover {
   border-color: rgb(255, 215, 0, 60%);
 }
 
+.card a {
+  color: #222;
+}
+
+.card a:hover {
+  color: rgb(255, 128, 0)
+}
+
 ul.skills {
   padding: 0;
   text-align: center;
