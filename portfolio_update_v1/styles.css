@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: RGB(69, 69, 69, 70%);
 }
 /* Link Styles */
 
@@ -25,7 +25,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: RGB(69, 69, 69, 90%);
   min-height: 30px;
   padding: 15px;
   position: fixed;
@@ -75,23 +75,26 @@ a:hover {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid rgb(255, 215, 0, 60%);
   transition: all .5s;
 }
 .home-page .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.35) rotate(8deg);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
+  background-color: RGB(69, 69, 69, 70%);
+  color: white;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
+  border-bottom: 2px solid rgb(255, 215, 0, 40%);
+  border-left: 2px solid rgb(255, 215, 0, 40%);
 }
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: RGB(215, 215, 0, 60%);
+  color: black;
+  font-weight: bold;
 }
 .card {
   margin: 30px;
@@ -104,7 +107,7 @@ a:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: rgb(255, 215, 0, 60%);
 }
 
 ul.skills {
@@ -127,22 +130,51 @@ ul.skills {
 
 /* CV & Hobbies styles */
 
+.link-header {
+  text-align: center;
+  background: url('images/rsz_manchester_city_scape_4.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+  line-height: 100px;
+}
+
+.text-header {
+  background-color: RGB(69, 69, 69, 70%);
+  color: white;
+  padding: 15px;
+  border-radius: 20%;
+  display: table;
+  margin: 60px auto;
+  border-bottom: 2px solid rgb(255, 215, 0, 40%);
+  border-left: 2px solid rgb(255, 215, 0, 40%);
+}
+
+.link-title {
+  color: white;
+  text-align: center;
+  background-color: RGB(69, 69, 69, 60%);
+}
+
 .CV li {
   border-radius: 6px;
   background: RGB(69, 69, 69, 60%);
+  display: table;
   color: white;
   padding: 5px 10px;
   margin: 5px;
   width: 100%;
   text-align: center;
+  float: left;
 }
 
 .CV {
-  position: relative 50%;
+  position: relative;
 }
 
 .CV li:nth-child(odd) {
-  background: #0399ff;
+  background: RGB(255, 215, 0, 60%);
+  color: RGB(69, 69, 69, 90%);
 }
 
 .li-image {
@@ -152,6 +184,11 @@ ul.skills {
   margin-bottom: 0px;
   padding: 0px;
   border: solid 5px RGB(69, 69, 69, 60%);
+  transition: all .5s;
+}
+
+.li-image:hover {
+  border-color: rgb(255, 215, 0, 40%);
 }
 
 ul.li-image {
@@ -176,26 +213,20 @@ figcaption {
 	width: 100%;
 }
 
-.icon-location {
-	width: 35px;
-	position: absolute;
-	top: -15px;
-	right: -15px;
+.column {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 5px solid RGB(69, 69, 69, 60%);
+  border-left: 5px solid RGB(69, 69, 69, 60%);
+  border-radius: 6px;
+  transition: all .5s;
 }
 
-.link-header {
-  text-align: center;
-  background: url('images/rsz_manchester_city_scape_4.jpg') no-repeat top center ;
-  background-size: cover;
-  overflow: hidden;
-  padding-top: 60px;
-}
-
-.link-title {
-  color: white;
-  text-align: center;
-  background-color: RGB(69, 69, 69, 60%);
-
+.column:hover {
+  border-color: rgb(255, 215, 0, 40%);
 }
 
 /* Footer styles*/
